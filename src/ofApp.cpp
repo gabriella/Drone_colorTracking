@@ -9,15 +9,35 @@ extern "C" {
 
 
 void ofApp::setup() {
+    
+    ofSetVerticalSync(true);
+    ofSetLogLevel(OF_LOG_VERBOSE);
+    
+    
+    //camera
 	//cam.initGrabber(640, 480);
+    
+    //screengrab
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
     image.allocate(captureWidth, captureHeight, OF_IMAGE_COLOR);
 
-
+//cv
 	contourFinder.setMinAreaRadius(10);
 	contourFinder.setMaxAreaRadius(200);
 	trackingColorMode = TRACK_COLOR_RGB;
+    
+    
+    
+    
+//    //drone
+//    //Clear all keys
+//   memset(keys, 0, sizeof(*keys));
+//    
+    doPause = false;
+    debug = false;
+  //  drone.connect();//why is this crashing the app, at ofxudpmanager::connect
+
 }
 
 void ofApp::update() {
@@ -25,6 +45,31 @@ void ofApp::update() {
 	//if(cam.isFrameNew()) {
 		
 	//}
+   /* //DRONE STUFF-----------------------------------------
+    
+    if(doPause) return;
+    
+    {
+        float s = 0.02;
+        
+        if(keys[OF_KEY_UP]) drone.controller.pitchAmount -= s;
+        else if(keys[OF_KEY_DOWN]) drone.controller.pitchAmount += s;
+        
+        if(keys['a']) drone.controller.rollAmount -= s;
+        else if(keys['d']) drone.controller.rollAmount += s;
+        
+        if(keys['w']) drone.controller.liftSpeed += s;
+        else if(keys['s']) drone.controller.liftSpeed -= s;
+        
+        if(keys[OF_KEY_LEFT]) drone.controller.spinSpeed -= s;
+        else if(keys[OF_KEY_RIGHT]) drone.controller.spinSpeed += s;
+        
+    }
+    
+    // update the drone (process and send queued commands to drone, receive commands from drone and update state
+    drone.update();
+    
+*/
     
     
     captureWidth = ofGetWidth();
