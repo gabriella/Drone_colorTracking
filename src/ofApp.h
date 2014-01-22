@@ -1,39 +1,70 @@
 #pragma once
 
+
 #include "ofMain.h"
-#include "ofxCv.h"
+#include "ofxOpenCv.h"
 #include "ofxARDrone.h"
+#include "ofxCv.h"
 
 
-class ofApp : public ofBaseApp {
-public:
-	void setup();
-	void update();
-	void draw();
-	void mousePressed(int x, int y, int button);
-	void keyPressed(int key);
-	
+class ofApp : public ofBaseApp{
     
-
-	ofVideoGrabber cam;
-	ofxCv::ContourFinder contourFinder;
+public:
+    
+    
+    
+    //drone variables
+    ofxARDrone::Drone drone;
+    bool doPause;
+    bool keys[65535];
+    
+    //TCP variables
+    ofxTCPClient tcpClient;
+    string msgTx, msgRx;
+    ofTrueTypeFont  mono;
+    ofTrueTypeFont  monosm;
+    float counter;
+    int connectTime;
+    int deltaTime;
+    bool weConnected;
+    int size;
+    int pos;
+    bool typed;
+    
+    
+    //ScreenGrab Stuff
+    int captureWidth, captureHeight;
+    
+    ofImage image;
+    ofxCvHaarFinder finder;
+    
+   // ofxCV stuff
+    ofxCv::ContourFinder contourFinder;
 	float threshold;
 	ofxCv::TrackingColorMode trackingColorMode;
 	ofColor targetColor;
     
-    //screengrab
-    int captureWidth;
-    int captureHeight;
     
-    ofImage image;
+    //OpenCV Stuff
     
-    //drone variables
-    ofxARDrone::Drone drone;//if this is initialized after ofxcv is then things seem ok. Why? if not then it crashes [note: look up the error]
-        bool doPause;
-        bool keys[65535];
+    ofxCvColorImage colorImg;
+    ofImage img;
+    ofPixels pixels;
     
-       //debug mode
-        bool debug;
+    bool debug;
     
-
+    void setup();
+    void update();
+    void draw();
+    
+    void keyPressed  (int key);
+    void keyReleased(int key);
+    void mouseMoved(int x, int y );
+    void mouseDragged(int x, int y, int button);
+    void mousePressed(int x, int y, int button);
+    void mouseReleased(int x, int y, int button);
+    void windowResized(int w, int h);
+    void dragEvent(ofDragInfo dragInfo);
+    void gotMessage(ofMessage msg);
+    
 };

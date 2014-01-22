@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/src/macGlutFix.m \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/src/macGlutfix.h
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutFix.m \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutfix.h
