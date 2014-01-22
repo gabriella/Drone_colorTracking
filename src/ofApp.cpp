@@ -36,6 +36,7 @@ void ofApp::setup() {
 //    
     doPause = false;
     debug = false;
+  
   //  drone.connect();//why is this crashing the app, at ofxudpmanager::connect
 
 }
