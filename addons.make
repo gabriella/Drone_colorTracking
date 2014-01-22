@@ -1,0 +1,4 @@
+ofxNetwork
+ofxOpenCv
+ofxARDrone
+ofxCv
