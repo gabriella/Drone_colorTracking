@@ -259,9 +259,31 @@ void ofApp::draw(){
      TCPstring += "From Server : " + msgRx + "\n";
      */
     
+     
+    
+    
+    //ScreenGrabStuff-------------------------------------------
+    ofSetColor(255);
+    
+	image.draw(0, 0);
+	
+    
+    
     
     if(debug == true){
-        ofSetColor(0, 200, 0);
+        ofSetColor(200, 200, 200, 120);
+        ofFill();
+        ofRect(0, 0, ofGetWidth(), ofGetHeight());
+       
+        
+        //Drone Stats
+        ofSetColor(0);
+        ofFill();
+        ofRect(8, 10, 220, 450);
+        ofRect(ofGetWidth()-300, 10, 300, 250);
+        
+        
+         ofSetColor(255);
         ofDrawBitmapString(controllerString, 10, 30);
         ofDrawBitmapString(stateString, ofGetWidth()-300, 30);
         // ofDrawBitmapString(TCPstring, 10, 400);
@@ -270,29 +292,26 @@ void ofApp::draw(){
         ofDrawBitmapString(drone.dataReceiver.commandHistory.getAsString("\n"), ofGetWidth()-300, 280);
         
         
+        //Contour Finder
+        contourFinder.draw();
+        drawHighlightString(ofToString((int) ofGetFrameRate()) + " fps", 10, 300);
+        drawHighlightString(ofToString((int) threshold) + " threshold", 10, 320);
+        drawHighlightString(trackingColorMode == TRACK_COLOR_HSV ? "HSV tracking" : "RGB tracking", 10, 340);
+        
+        
+        ofTranslate(10, 360);
+        ofFill();
+        ofSetColor(0);
+        ofRect(-3, -3, 64+6, 64+6);
+        ofSetColor(targetColor);
+        ofRect(0, 0, 64, 64);
+        ofNoFill();
+
         
         
     }
-    
-    
-    
-    //ScreenGrabStuff-------------------------------------------
-    ofSetColor(255);
-    
-	image.draw(0, 0);
-	contourFinder.draw();
-	drawHighlightString(ofToString((int) ofGetFrameRate()) + " fps", 10, 20);
-	drawHighlightString(ofToString((int) threshold) + " threshold", 10, 40);
-	drawHighlightString(trackingColorMode == TRACK_COLOR_HSV ? "HSV tracking" : "RGB tracking", 10, 60);
-	
-	ofTranslate(8, 75);
-	ofFill();
-	ofSetColor(0);
-	ofRect(-3, -3, 64+6, 64+6);
-	ofSetColor(targetColor);
-	ofRect(0, 0, 64, 64);
-    ofNoFill();
 
+   
 //    
 //    //for each face "blob" we found, draw a rectangle around the face
 //    //#2
