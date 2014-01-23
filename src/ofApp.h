@@ -56,10 +56,13 @@ public:
     ofPoint myCentroid;
     
     bool debug;
+    bool isScanningRight;
+    bool isScanningLeft;
     
     
     void checkContours();
-    void scanning();
+    void scanningleft();
+    void scanningright();
     
     void setup();
     void update();
