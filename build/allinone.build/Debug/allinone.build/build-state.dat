@@ -1,45 +1,45 @@
 Tallinone
-v5
+v6
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/Info.plist openFrameworks-Info.plist
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/main.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPClient.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxTCPClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPManager.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxTCPManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPServer.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxTCPServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxUDPManager.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxUDPManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/macGlutFix.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/macGlutFix.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvColorImage.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvContourFinder.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvHaarFinder.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvFloatImage.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvImage.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvShortImage.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDrone.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDrone.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneCommand.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneCommand.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneController.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneState.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneState.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneDataReceiver.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneDataReceiver.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneSimulator.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneSimulator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxPhysicalNode.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxPhysicalNode.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ETF.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/src/ETF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/fdog.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/src/fdog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ContourFinder.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Distance.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Calibration.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Helpers.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Flow.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ObjectFinder.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/RunningBackground.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Tracker.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Tracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Utilities.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Utilities.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Wrappers.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Wrappers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386
-cPhaseScriptExecution "Run Script" /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/allinoneDebug.app/Contents/Frameworks/GLUT.framework
-cTouch /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app
+cProcessInfoPlistFile /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/Info.plist /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/openFrameworks-Info.plist
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/main.o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPClient.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPManager.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPServer.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxUDPManager.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxUDPManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/macGlutFix.o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutFix.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvColorImage.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvContourFinder.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvFloatImage.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvHaarFinder.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvImage.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvShortImage.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDrone.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneCommand.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneCommand.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneController.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneDataReceiver.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneDataReceiver.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneSimulator.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneSimulator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneState.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneState.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxPhysicalNode.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxPhysicalNode.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ETF.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/CLD/src/ETF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/fdog.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/CLD/src/fdog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Calibration.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ContourFinder.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Distance.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Flow.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Flow.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Helpers.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Helpers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ObjectFinder.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/RunningBackground.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Tracker.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Tracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Utilities.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Utilities.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Wrappers.o /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Wrappers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386
+cPhaseScriptExecution Run\ Script /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp /Users/gabriellalevine/Documents/openFrameworks/libs/glut/lib/osx/GLUT.framework bin/allinoneDebug.app/Contents/Frameworks/GLUT.framework
+cTouch /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c000000005130312F00000000000000AA
@@ -527,79 +527,79 @@ t1385614913
 s5968
 
 N/System/Library/Frameworks/AGL.framework/AGL
-c0000000051D59DDF000000000001BA10
-t1372954079
-s113168
+c00000000529745380000000000019CF0
+t1385645368
+s105712
 
 N/System/Library/Frameworks/Accelerate.framework/Accelerate
-c0000000051D59DB400000000000064D0
-t1372954036
-s25808
+c000000005297450A00000000000065A0
+t1385645322
+s26016
 
 N/System/Library/Frameworks/AppKit.framework/AppKit
-c0000000051D59DA700000000021F3F70
-t1372954023
-s35602288
+c00000000529744D300000000024991A0
+t1385645267
+s38375840
 
 N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c0000000051D59DA7000000000000B750
-t1372954023
-s46928
+c00000000529744D4000000000000BC70
+t1385645268
+s48240
 
 N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051D59DA800000000003AA4D0
-t1372954024
-s3843280
+c00000000529744DD00000000003E3C00
+t1385645277
+s4078592
 
 N/System/Library/Frameworks/Carbon.framework/Carbon
-c0000000051D59DA70000000000006530
-t1372954023
-s25904
+c00000000529744DA0000000000006B20
+t1385645274
+s27424
 
 N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c0000000051D59DA70000000000006560
-t1372954023
-s25952
+c00000000529744DB00000000000066C0
+t1385645275
+s26304
 
 N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000051D59DA800000000001195D0
-t1372954024
-s1152464
+c00000000529744DC00000000000EFD70
+t1385645276
+s982384
 
 N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000051D59DA7000000000060FA80
-t1372954023
-s6355584
+c00000000529744D60000000000688550
+t1385645270
+s6849872
 
 N/System/Library/Frameworks/CoreServices.framework/CoreServices
-c0000000051D59DA8000000000000B870
-t1372954024
-s47216
+c00000000529744E0000000000000D730
+t1385645280
+s55088
 
 N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c0000000051D59DA9000000000007CED0
-t1372954025
-s511696
+c00000000529744E10000000000080210
+t1385645281
+s524816
 
 N/System/Library/Frameworks/IOKit.framework/IOKit
-c0000000051D59DAC0000000000120F60
-t1372954028
-s1183584
+c00000000529744EB0000000000141E90
+t1385645291
+s1318544
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000051D59DAE000000000002D360
-t1372954030
-s185184
+c00000000529744F2000000000002C960
+t1385645298
+s182624
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000005249A51000000000004B9FB0
-t1380558096
-s4956080
+c0000000052B8754A000000000049D700
+t1387820362
+s4839168
 
 N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000005249A50F000000000032B7E0
-t1380558095
-s3323872
+c0000000052B8754A0000000000322B80
+t1387820362
+s3287936
 
 N/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDrone.cpp
 c0000000052826BE40000000000000684
@@ -2291,19 +2291,19 @@ t1390255249
 s33605592
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000684
+t1389125112
+s1668
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.h
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000A49
+t1389125112
+s2633
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneCommand.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000610
+t1389125112
+s1552
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneCommand.h
 c0000000052CC5DF8000000000000031B
@@ -2316,9 +2316,9 @@ t1389125112
 s7380
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000002374
+t1389125112
+s9076
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.h
 c0000000052CC5DF80000000000000D32
@@ -2326,9 +2326,9 @@ t1389125112
 s3378
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneDataReceiver.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000A4C
+t1389125112
+s2636
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneDataReceiver.h
 c0000000052CC5DF80000000000000545
@@ -2336,9 +2336,9 @@ t1389125112
 s1349
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneSimulator.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000D12
+t1389125112
+s3346
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneSimulator.h
 c0000000052CC5DF80000000000000567
@@ -2346,9 +2346,9 @@ t1389125112
 s1383
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneState.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF80000000000000E01
+t1389125112
+s3585
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneState.h
 c0000000052CC5DF80000000000001116
@@ -2366,9 +2366,9 @@ t1389125112
 s2432
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxPhysicalNode.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052CC5DF8000000000000067B
+t1389125112
+s1659
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxPhysicalNode.h
 c0000000052CC5DF800000000000001CE
@@ -2396,14 +2396,14 @@ t1390255543
 s2136
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/CLD/src/ETF.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000002292
+t1390255543
+s8850
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/CLD/src/fdog.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000002459
+t1390255543
+s9305
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h
 c0000000052DD9DB70000000000000FA4
@@ -2456,54 +2456,54 @@ t1390255543
 s13448
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Calibration.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB7000000000000396F
+t1390255543
+s14703
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000001F5A
+t1390255543
+s8026
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Distance.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000000EB9
+t1390255543
+s3769
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Flow.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB700000000000020A1
+t1390255543
+s8353
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Helpers.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000001172
+t1390255543
+s4466
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB700000000000011F1
+t1390255543
+s4593
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB700000000000008F2
+t1390255543
+s2290
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Tracker.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000000360
+t1390255543
+s864
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Utilities.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB700000000000011D6
+t1390255543
+s4566
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Wrappers.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DD9DB70000000000000F2B
+t1390255543
+s3883
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/src/ofxCv.h
 c0000000052DD9DB7000000000000047F
@@ -2511,9 +2511,9 @@ t1390255543
 s1151
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetwork.h
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA6B0000000000000078
+t1389812331
+s120
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetworkUtils.h
 c0000000052D6DA6B0000000000001535
@@ -2521,9 +2521,9 @@ t1389812331
 s5429
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA6B000000000000211F
+t1389812331
+s8479
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.h
 c0000000052D6DA6B0000000000000B25
@@ -2531,9 +2531,9 @@ t1389812331
 s2853
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPManager.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA6B0000000000002FA4
+t1389812331
+s12196
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPManager.h
 c0000000052D6DA6B0000000000001706
@@ -2541,9 +2541,9 @@ t1389812331
 s5894
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPServer.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA6B000000000000232A
+t1389812331
+s9002
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPServer.h
 c0000000052D6DA6B0000000000000B65
@@ -2551,9 +2551,9 @@ t1389812331
 s2917
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxUDPManager.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DFFFB40000000000003066
+t1390411700
+s12390
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxUDPManager.h
 c0000000052D6DA6B0000000000000F75
@@ -2851,9 +2851,9 @@ t1389812337
 s1310
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA710000000000003FE2
+t1389812337
+s16354
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.h
 c0000000052D6DA710000000000001A82
@@ -2866,9 +2866,9 @@ t1389812337
 s222
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA710000000000001D4D
+t1389812337
+s7501
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.h
 c0000000052D6DA7100000000000007FC
@@ -2876,9 +2876,9 @@ t1389812337
 s2044
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA7100000000000057B4
+t1389812337
+s22452
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.h
 c0000000052D6DA710000000000001DB1
@@ -2886,9 +2886,9 @@ t1389812337
 s7601
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA710000000000003CDD
+t1389812337
+s15581
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h
 c0000000052D6DA710000000000001C42
@@ -2896,9 +2896,9 @@ t1389812337
 s7234
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA7100000000000018BD
+t1389812337
+s6333
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.h
 c0000000052D6DA710000000000000693
@@ -2906,9 +2906,9 @@ t1389812337
 s1683
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA710000000000006CC8
+t1389812337
+s27848
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.h
 c0000000052D6DA710000000000001A6E
@@ -2916,9 +2916,9 @@ t1389812337
 s6766
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052D6DA710000000000003D8E
+t1389812337
+s15758
 
 N/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.h
 c0000000052D6DA7100000000000018A7
@@ -2931,7 +2931,7 @@ t1389812337
 s382
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app
-t1390412799
+t1390447051
 s102
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/Frameworks/GLUT.framework
@@ -2943,149 +2943,149 @@ t1390347248
 s1101
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug
-t1390412828
-s10268204
+t1390447055
+s11822912
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/PkgInfo
 t1390347248
 s8
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Calibration.o
-t1390347302
-s772020
+t1390438315
+s766140
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ContourFinder.o
-t1390347306
-s981208
+t1390438315
+s982092
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Distance.o
-t1390347295
-s27764
+t1390438315
+s28076
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ETF.o
-t1390347295
-s62212
+t1390438315
+s53396
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Flow.o
-t1390347305
-s589736
+t1390438315
+s580000
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Helpers.o
-t1390347304
-s308356
+t1390438315
+s294652
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ObjectFinder.o
-t1390347312
-s738092
+t1390438315
+s732696
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/RunningBackground.o
-t1390347312
-s90108
+t1390438315
+s80596
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Tracker.o
-t1390347313
-s75604
+t1390438315
+s65788
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Utilities.o
-t1390347314
-s250732
+t1390438315
+s239392
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/Wrappers.o
-t1390347317
-s427012
+t1390438315
+s415620
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList
-c0000000052DFFA46000000000000143E
-t1390410310
+c0000000052E06896000000000000143E
+t1390438550
 s5182
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/fdog.o
-t1390347295
-s67188
+t1390438315
+s58544
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/macGlutFix.o
-t1390347468
-s24228
+t1390438315
+s24416
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/main.o
-t1390407424
-s825248
+t1390438315
+s995380
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o
-t1390412826
-s860936
+t1390447049
+s1064572
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDrone.o
-t1390347283
-s114568
+t1390438315
+s104800
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneCommand.o
-t1390347283
-s107240
+t1390438315
+s98496
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneController.o
-t1390347286
-s198612
+t1390438315
+s191124
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneDataReceiver.o
-t1390347287
-s134104
+t1390438315
+s124960
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneSimulator.o
-t1390347290
-s141256
+t1390438315
+s131960
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxARDroneState.o
-t1390347290
-s106788
+t1390438315
+s97796
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvColorImage.o
-t1390347267
-s290424
+t1390438315
+s276768
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvContourFinder.o
-t1390347270
-s393896
+t1390438315
+s382216
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvFloatImage.o
-t1390347273
-s309100
+t1390438315
+s295560
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvGrayscaleImage.o
-t1390347273
-s289636
+t1390438315
+s275912
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvHaarFinder.o
-t1390347277
-s425624
+t1390438315
+s413700
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvImage.o
-t1390347281
-s315748
+t1390438315
+s303020
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxCvShortImage.o
-t1390347281
-s283712
+t1390438315
+s269744
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxPhysicalNode.o
-t1390347292
-s104712
+t1390438315
+s95088
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPClient.o
-t1390347259
-s151840
+t1390438315
+s142924
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPManager.o
-t1390347261
-s138488
+t1390438315
+s129588
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxTCPServer.o
-t1390347262
-s307820
+t1390438315
+s301868
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofxUDPManager.o
-t1390411703
-s136096
+t1390438316
+s126992
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 c0000000052DF03F000000000000001A5
@@ -3098,29 +3098,29 @@ t1390347190
 s670
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutFix.m
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DDB5AE0000000000000E39
+t1390261678
+s3641
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutfix.h
-c00000000000000000000000000000000
-t2
-s0
+c0000000052DDB5AE0000000000000095
+t1390261678
+s149
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/main.cpp
-c0000000052DF03B60000000000000155
-t1390347190
+c0000000052E043390000000000000155
+t1390428985
 s341
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp
-c00000000000000000000000000000000
-t2
-s0
+c0000000052E089C40000000000003D05
+t1390447044
+s15621
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.h
-c00000000000000000000000000000000
-t2
-s0
+c0000000052E089C40000000000000686
+t1390447044
+s1670
 
 N/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h
 c00000000000000000000000000000000
@@ -3795,9 +3795,9 @@ t1389812343
 s2965
 
 N/Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
-c0000000052D7005E00000000020BD3A8
-t1389822046
-s34329512
+c0000000052E0689600000000020BD3B8
+t1390438550
+s34329528
 
 N/Users/gabriellalevine/Documents/openFrameworks/libs/openssl/lib/osx/crypto.a
 c0000000052D6DA7800000000002655A0
@@ -4528,7 +4528,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5a457fa99090b841^2f6e7fa99090b841^---0#1#0#--18"Check dependencies36"6FC19C3D-3B57-4AC7-8185-BCE8C96CE9C9-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa48b614fc190b841^bc3b624fc190b841^---0#1#1#--18"Check dependencies36"403F4463-E800-449D-992A-F55CAB202825-
 
 CCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/Calibration.o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s412126052.744614
@@ -7325,8 +7325,8 @@ oclang: warning: -lpthread: 'linker' input unused
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.cpp54ac86a99090b841^b5df8aab9090b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.cpp0000000000000000^5184"CompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug.hmap -I/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxNetwork/libs -I../../../addons/ofxNetwork/src -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -I../../../addons/ofxARDrone/libs -I../../../addons/ofxARDrone/src -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources/i386 -I/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources -F/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin -F/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.dia -c /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.cpp -o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o36"7D76E937-C8B7-4954-9114-61141FAE4376-
 
 CCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s412105620.637761
-e412105626.251008
+s412139844.845259
+e412139849.052593
 r1
 xCompileC
 xbuild/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o
@@ -7507,26 +7507,83 @@ d/Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworks/video/ofVid
 d/Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworks/video/ofQTKitPlayer.h
 d/Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworks/3d/ofCamera.h
 d/Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/src/ofxCv.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxOpenCv.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvConstants.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvImage.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvBlob.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvColorImage.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvFloatImage.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvShortImage.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetwork.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPManager.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPServer.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxUDPManager.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxMSABitField.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxMSAHistory.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneConstants.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneCommand.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneDataReceiver.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneState.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneSimulator.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxPhysicalNode.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/src/ofxCv.h
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp
+d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml/ml.hpp
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui_c.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui.hpp
@@ -7546,24 +7603,10 @@ d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/include
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h
 d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetwork.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPManager.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPServer.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxUDPManager.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxMSABitField.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxMSAHistory.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneConstants.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneCommand.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneDataReceiver.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneState.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneSimulator.h
-d/Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxPhysicalNode.h
 d/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutfix.h
 oclang: warning: -lpthread: 'linker' input unused
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp152"CompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilercde4a3943b90b841^ff41409a3b90b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp0000000000000000^5260"CompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug.hmap -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxNetwork/libs -I../../../addons/ofxNetwork/src -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -I../../../addons/ofxARDrone/libs -I../../../addons/ofxARDrone/src -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources/i386 -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.dia -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp -o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o36"54A343E4-325A-43EB-8F26-62A529FAAE34-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp152"CompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler664fda44c190b841^e4f92849c190b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp0000000000000000^5260"CompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug.hmap -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxNetwork/libs -I../../../addons/ofxNetwork/src -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l -I../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -I../../../addons/ofxARDrone/libs -I../../../addons/ofxARDrone/src -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources/i386 -I/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.dia -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp -o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o36"D4F931B8-E081-4B95-844C-711948C1DBE4-
+b9EC353DB-D965-467D-8741-07F0101A37DC
 
 CCompileC build/allinone.build/Debug/allinone.build/Objects-normal/i386/ofApp.o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s412102835.043681
@@ -11385,8 +11428,8 @@ xi386
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebuge90b8dab9090b841^903143ad9090b841^---0#0#0#--2347"Ld bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386    cd /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin -F/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin -F/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -filelist /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../libs/openssl/lib/osx/crypto.a ../../../libs/openssl/lib/osx/ssl.a ../../../libs/glfw/lib/osx/libglfw3.a ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a -fobjc-link-runtime -framework Accelerate -framework QTKit -framework GLUT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework CoreVideo -o /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug36"2A6F7313-E6A7-485E-AA89-4D8A5E611666-
 
 CLd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386
-s412105626.256499
-e412105628.157796
+s412139849.062963
+e412139850.944899
 r1
 xLd
 x/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug
@@ -11471,30 +11514,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libgcc_s.1.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
@@ -11507,8 +11526,32 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -11541,7 +11584,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug65"Ld bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i3868fc6419a3b90b841^ae67289c3b90b841^---0#0#1#--2558"Ld bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -filelist /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../libs/openssl/lib/osx/crypto.a ../../../libs/openssl/lib/osx/ssl.a ../../../libs/glfw/lib/osx/libglfw3.a ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a -fobjc-link-runtime -framework Accelerate -framework QTKit -framework GLUT /Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework CoreVideo -Xlinker -dependency_info -Xlinker /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug_dependency_info.dat -o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug36"A028265B-5C81-4548-B342-506811C757B7-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug65"Ld bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i38674461049c190b841^e2e5f14ac190b841^---0#0#1#--2558"Ld bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin -F/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx -filelist /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../libs/openssl/lib/osx/crypto.a ../../../libs/openssl/lib/osx/ssl.a ../../../libs/glfw/lib/osx/libglfw3.a ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a -fobjc-link-runtime -framework Accelerate -framework QTKit -framework GLUT /Users/gabriellalevine/Documents/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework CoreVideo -Xlinker -dependency_info -Xlinker /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug_dependency_info.dat -o /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug36"CA5C030A-3D07-4BBB-B34C-5E6443DEC1A9-
+b9EC353DB-D965-467D-8741-07F0101A37DC
 
 CLd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/bin/allinoneDebug.app/Contents/MacOS/allinoneDebug normal i386
 s412102843.748751
@@ -11724,13 +11768,14 @@ x/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'055246ad9090b841^96ecc4ad9090b841^---0#0#0#--28334"PhaseScriptExecution "Run Script" build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Kleeb3    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv BUILD_ROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin    setenv CACHE_ROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMBINE_HIDPI_IMAGES YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin    setenv CONFIGURATION_TEMP_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug    setenv CONTENTS_FOLDER_PATH allinoneDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/allinone.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME allinoneDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH allinoneDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH allinoneDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME allinoneDebug    setenv EXECUTABLE_PATH allinoneDebug.app/Contents/MacOS/allinoneDebug    setenv FILE_LIST /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin\"  \"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME allinoneDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS YES    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLFW "\"../../../libs/glfw/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\" ../../../addons/ofxNetwork/libs ../../../addons/ofxNetwork/src ../../../addons/ofxOpenCv/libs ../../../addons/ofxOpenCv/libs/opencv ../../../addons/ofxOpenCv/libs/opencv/include ../../../addons/ofxOpenCv/libs/opencv/include/opencv ../../../addons/ofxOpenCv/libs/opencv/include/opencv2 ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video ../../../addons/ofxOpenCv/libs/opencv/lib ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l ../../../addons/ofxOpenCv/libs/opencv/lib/osx ../../../addons/ofxOpenCv/src ../../../addons/ofxARDrone/libs ../../../addons/ofxARDrone/src ../../../addons/ofxCv/libs ../../../addons/ofxCv/libs/CLD ../../../addons/ofxCv/libs/CLD/include ../../../addons/ofxCv/libs/CLD/include/CLD ../../../addons/ofxCv/libs/CLD/src ../../../addons/ofxCv/libs/ofxCv ../../../addons/ofxCv/libs/ofxCv/include ../../../addons/ofxCv/libs/ofxCv/include/ofxCv ../../../addons/ofxCv/libs/ofxCv/src ../../../addons/ofxCv/src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICON icon-debug.icns    setenv ICONV /usr/bin/iconv    setenv ICON_FILE ../../../libs/openFrameworksCompiled/project/osx/icon-debug.icns    setenv ICON_FILE_PATH ../../../libs/openFrameworksCompiled/project/osx/    setenv ICON_NAME_DEBUG icon-debug.icns    setenv ICON_NAME_RELEASE icon.icns    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH allinoneDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH allinoneDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/allinone.dst/Users/Kleeb3/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Kleeb3    setenv INSTALL_PATH /Users/Kleeb3/Applications    setenv INSTALL_ROOT /tmp/allinone.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH allinoneDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLFW "\"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_OPENSSL1 "\"../../../libs/openssl/lib/osx/crypto.a\""    setenv LIB_OPENSSL2 "\"../../../libs/openssl/lib/osx/ssl.a\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal    setenv OBJROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\" ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH allinoneDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "objective-c c++"    setenv PKGINFO_FILE_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PkgInfo    setenv PKGINFO_PATH allinoneDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4H1503    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH allinoneDebug.app/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME allinoneDebug    setenv PRODUCT_SETTINGS_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT allinone    setenv PROJECT_DERIVED_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/DerivedSources    setenv PROJECT_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv PROJECT_FILE_PATH /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/allinone.xcodeproj    setenv PROJECT_NAME allinone    setenv PROJECT_TEMP_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build    setenv PROJECT_TEMP_ROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv PUBLIC_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH allinoneDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk    setenv SDK_NAME macosx10.8    setenv SDK_PRODUCT_BUILD_VERSION 12D75    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH allinoneDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv SRCROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME allinone    setenv TARGET_BUILD_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin    setenv TARGET_NAME allinone    setenv TARGET_TEMP_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILES_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILE_DIR /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_ROOT /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER Kleeb3    setenv USER_APPS_DIR /Users/Kleeb3/Applications    setenv USER_LIBRARY_DIR /Users/Kleeb3/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH allinoneDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER Kleeb3    setenv VERSION_INFO_FILE allinoneDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:allinoneDebug  PROJECT:allinone-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME allinoneDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"94F556BC-DB90-4330-9EDB-DD25BC4EE46E-
 
 CPhaseScriptExecution Run\ Script /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-s412105628.176668
-e412105628.281946
+s412139855.420856
+e412139855.487821
 r1
 xPhaseScriptExecution
 xRun Script
 x/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'109"PhaseScriptExecution Run\ Script build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh6d1d309c3b90b841^5931489c3b90b841^---0#0#1#--29357"PhaseScriptExecution Run\ Script build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER gabriellalevine    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv BUILD_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv CACHE_ROOT /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv CONFIGURATION_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug    setenv CONTENTS_FOLDER_PATH allinoneDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/allinone.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME allinoneDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH allinoneDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH allinoneDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME allinoneDebug    setenv EXECUTABLE_PATH allinoneDebug.app/Contents/MacOS/allinoneDebug    setenv FILE_LIST /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin  \"/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME allinoneDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS YES    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLFW "\"../../../libs/glfw/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/include \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\" ../../../addons/ofxNetwork/libs ../../../addons/ofxNetwork/src ../../../addons/ofxOpenCv/libs ../../../addons/ofxOpenCv/libs/opencv ../../../addons/ofxOpenCv/libs/opencv/include ../../../addons/ofxOpenCv/libs/opencv/include/opencv ../../../addons/ofxOpenCv/libs/opencv/include/opencv2 ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video ../../../addons/ofxOpenCv/libs/opencv/lib ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l ../../../addons/ofxOpenCv/libs/opencv/lib/osx ../../../addons/ofxOpenCv/src ../../../addons/ofxARDrone/libs ../../../addons/ofxARDrone/src ../../../addons/ofxCv/libs ../../../addons/ofxCv/libs/CLD ../../../addons/ofxCv/libs/CLD/include ../../../addons/ofxCv/libs/CLD/include/CLD ../../../addons/ofxCv/libs/CLD/src ../../../addons/ofxCv/libs/ofxCv ../../../addons/ofxCv/libs/ofxCv/include ../../../addons/ofxCv/libs/ofxCv/include/ofxCv ../../../addons/ofxCv/libs/ofxCv/src ../../../addons/ofxCv/src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICON icon-debug.icns    setenv ICONV /usr/bin/iconv    setenv ICON_FILE ../../../libs/openFrameworksCompiled/project/osx/icon-debug.icns    setenv ICON_FILE_PATH ../../../libs/openFrameworksCompiled/project/osx/    setenv ICON_NAME_DEBUG icon-debug.icns    setenv ICON_NAME_RELEASE icon.icns    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH allinoneDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH allinoneDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/allinone.dst/Users/gabriellalevine/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER gabriellalevine    setenv INSTALL_PATH /Users/gabriellalevine/Applications    setenv INSTALL_ROOT /tmp/allinone.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH allinoneDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLFW "\"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_OPENSSL1 "\"../../../libs/openssl/lib/osx/crypto.a\""    setenv LIB_OPENSSL2 "\"../../../libs/openssl/lib/osx/ssl.a\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B42    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /Users/gabriellalevine/Library/Developer/Xcode/DerivedData/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal    setenv OBJROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\" ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH allinoneDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "objective-c c++"    setenv PKGINFO_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PkgInfo    setenv PKGINFO_PATH allinoneDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 5A3005    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH allinoneDebug.app/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME allinoneDebug    setenv PRODUCT_SETTINGS_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT allinone    setenv PROJECT_DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/DerivedSources    setenv PROJECT_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv PROJECT_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/allinone.xcodeproj    setenv PROJECT_NAME allinone    setenv PROJECT_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build    setenv PROJECT_TEMP_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv PUBLIC_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH allinoneDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    setenv SDK_NAME macosx10.9    setenv SDK_PRODUCT_BUILD_VERSION 13A595    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH allinoneDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv SRCROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME allinone    setenv TARGET_BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv TARGET_NAME allinone    setenv TARGET_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER gabriellalevine    setenv USER_APPS_DIR /Users/gabriellalevine/Applications    setenv USER_LIBRARY_DIR /Users/gabriellalevine/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH allinoneDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER gabriellalevine    setenv VERSION_INFO_FILE allinoneDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:allinoneDebug  PROJECT:allinone-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME allinoneDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH allinoneDebug.app/Contents/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"D4C8AA89-62F3-4F73-BAA8-343CDB57410D-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'109"PhaseScriptExecution Run\ Script build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh0f5f6e4fc190b841^15e37c4fc190b841^---0#0#1#--29357"PhaseScriptExecution Run\ Script build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER gabriellalevine    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv BUILD_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv CACHE_ROOT /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv CONFIGURATION_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug    setenv CONTENTS_FOLDER_PATH allinoneDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/allinone.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME allinoneDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH allinoneDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH allinoneDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME allinoneDebug    setenv EXECUTABLE_PATH allinoneDebug.app/Contents/MacOS/allinoneDebug    setenv FILE_LIST /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin  \"/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME allinoneDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS YES    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLFW "\"../../../libs/glfw/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/include \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\" ../../../addons/ofxNetwork/libs ../../../addons/ofxNetwork/src ../../../addons/ofxOpenCv/libs ../../../addons/ofxOpenCv/libs/opencv ../../../addons/ofxOpenCv/libs/opencv/include ../../../addons/ofxOpenCv/libs/opencv/include/opencv ../../../addons/ofxOpenCv/libs/opencv/include/opencv2 ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video ../../../addons/ofxOpenCv/libs/opencv/lib ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv6l ../../../addons/ofxOpenCv/libs/opencv/lib/linuxarmv7l ../../../addons/ofxOpenCv/libs/opencv/lib/osx ../../../addons/ofxOpenCv/src ../../../addons/ofxARDrone/libs ../../../addons/ofxARDrone/src ../../../addons/ofxCv/libs ../../../addons/ofxCv/libs/CLD ../../../addons/ofxCv/libs/CLD/include ../../../addons/ofxCv/libs/CLD/include/CLD ../../../addons/ofxCv/libs/CLD/src ../../../addons/ofxCv/libs/ofxCv ../../../addons/ofxCv/libs/ofxCv/include ../../../addons/ofxCv/libs/ofxCv/include/ofxCv ../../../addons/ofxCv/libs/ofxCv/src ../../../addons/ofxCv/src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICON icon-debug.icns    setenv ICONV /usr/bin/iconv    setenv ICON_FILE ../../../libs/openFrameworksCompiled/project/osx/icon-debug.icns    setenv ICON_FILE_PATH ../../../libs/openFrameworksCompiled/project/osx/    setenv ICON_NAME_DEBUG icon-debug.icns    setenv ICON_NAME_RELEASE icon.icns    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH allinoneDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH allinoneDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/allinone.dst/Users/gabriellalevine/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER gabriellalevine    setenv INSTALL_PATH /Users/gabriellalevine/Applications    setenv INSTALL_ROOT /tmp/allinone.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH allinoneDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/allinoneDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLFW "\"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_OPENSSL1 "\"../../../libs/openssl/lib/osx/crypto.a\""    setenv LIB_OPENSSL2 "\"../../../libs/openssl/lib/osx/ssl.a\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal/i386/allinoneDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B42    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /Users/gabriellalevine/Library/Developer/Xcode/DerivedData/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Objects-normal    setenv OBJROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\" ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH allinoneDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "objective-c c++"    setenv PKGINFO_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PkgInfo    setenv PKGINFO_PATH allinoneDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 5A3005    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH allinoneDebug.app/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME allinoneDebug    setenv PRODUCT_SETTINGS_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT allinone    setenv PROJECT_DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/DerivedSources    setenv PROJECT_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv PROJECT_FILE_PATH /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/allinone.xcodeproj    setenv PROJECT_NAME allinone    setenv PROJECT_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build    setenv PROJECT_TEMP_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv PUBLIC_HEADERS_FOLDER_PATH allinoneDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH allinoneDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    setenv SDK_NAME macosx10.9    setenv SDK_PRODUCT_BUILD_VERSION 13A595    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH allinoneDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/t6/_bxjb5l535z_1f_j8186nt0h0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH allinoneDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv SRCROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME allinone    setenv TARGET_BUILD_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin    setenv TARGET_NAME allinone    setenv TARGET_TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILES_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_FILE_DIR /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build    setenv TEMP_ROOT /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH allinoneDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER gabriellalevine    setenv USER_APPS_DIR /Users/gabriellalevine/Applications    setenv USER_LIBRARY_DIR /Users/gabriellalevine/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH allinoneDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER gabriellalevine    setenv VERSION_INFO_FILE allinoneDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:allinoneDebug  PROJECT:allinone-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME allinoneDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH allinoneDebug.app/Contents/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"A45E981A-81CF-4DCD-ACE0-87A617ABAE8C-
+b35AC52B2-91A6-4A43-826F-F6B2EE2A2C77
 
 CPhaseScriptExecution Run\ Script /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/build/allinone.build/Debug/allinone.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 s412103024.812915
@@ -11765,12 +11810,13 @@ x/Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app5d52c9ad9090b841^db4fcaad9090b841^---0#0#0#--239"Touch bin/allinoneDebug.app    cd /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking    /usr/bin/touch -c /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app36"C3EDC8DA-017B-4375-A0C3-149233FE314B-
 
 CTouch /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app
-s412105628.283121
-e412105628.289977
+s412139855.489430
+e412139855.499090
 r1
 xTouch
 x/Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app27"Touch bin/allinoneDebug.app0989489c3b90b841^da3c4a9c3b90b841^---0#0#1#--239"Touch bin/allinoneDebug.app    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    /usr/bin/touch -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app36"E508DCF3-905F-4ABF-8C0E-131EE8494C9F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app27"Touch bin/allinoneDebug.app0a657d4fc190b841^26c57f4fc190b841^---0#0#1#--239"Touch bin/allinoneDebug.app    cd /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking    /usr/bin/touch -c /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/bin/allinoneDebug.app36"854C83DD-EF5A-4688-9AB8-2D0148F30821-
+b35AC52B2-91A6-4A43-826F-F6B2EE2A2C77
 
 CTouch /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/bin/allinoneDebug.app
 s412103024.887399

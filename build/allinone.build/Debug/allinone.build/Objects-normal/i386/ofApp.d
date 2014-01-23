@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.cpp \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/ofApp.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.cpp \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/ofApp.h \
   ../../../libs/openFrameworks/ofMain.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
   ../../../libs/glew/include/GL/glew.h \
@@ -171,9 +171,9 @@ dependencies: \
   ../../../libs/openFrameworks/video/ofQTKitPlayer.h \
   ../../../libs/openFrameworks/3d/ofCamera.h \
   ../../../libs/openFrameworks/3d/ofEasyCam.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxOpenCv.h \
+  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxOpenCv.h \
   ../../../addons/ofxOpenCv/src/ofxCvConstants.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp \
@@ -229,9 +229,9 @@ dependencies: \
   ../../../addons/ofxOpenCv/src/ofxCvShortImage.h \
   ../../../addons/ofxOpenCv/src/ofxCvContourFinder.h \
   ../../../addons/ofxOpenCv/src/ofxCvHaarFinder.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDrone.h \
+  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDrone.h \
   ../../../addons/ofxARDrone/src/ofxARDroneController.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxNetwork.h \
+  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetwork.h \
   ../../../addons/ofxNetwork/src/ofxTCPClient.h \
   ../../../addons/ofxNetwork/src/ofxTCPManager.h \
   ../../../addons/ofxNetwork/src/ofxTCPServer.h \
@@ -244,7 +244,7 @@ dependencies: \
   ../../../addons/ofxARDrone/src/ofxARDroneState.h \
   ../../../addons/ofxARDrone/src/ofxARDroneSimulator.h \
   ../../../addons/ofxARDrone/src/ofxPhysicalNode.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/src/ofxCv.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/src/ofxCv.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp \
@@ -255,10 +255,10 @@ dependencies: \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/retina.hpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h \
@@ -267,4 +267,4 @@ dependencies: \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h \
-  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/src/macGlutfix.h
+  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/Drone_colorTracking/src/macGlutfix.h

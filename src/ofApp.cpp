@@ -207,11 +207,20 @@ void ofApp::update(){
         threshold = ofMap(mouseX, 0, ofGetWidth(), 0, 255);
 		contourFinder.setThreshold(threshold);
 		contourFinder.findContours(image);
-
+        
+        //cv::Rect myBlob = getBoundingRect();
+        
+       // if (!tracking){
+        cv::Point2f blob = getCenterRect();
+        //tracking(myBlob);
+        trackingCentroid(blob);
+        
         
     }
     else {return;}
     //cout << imageBelowWindow()[0] << endl;
+    
+    
     
 }
 
@@ -219,13 +228,6 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    
-    
-   // ofBackground(0);
-   // ofEnableAlphaBlending();
-   // glEnable(GL_DEPTH_TEST);
-    
-    //colorImg.draw(100, 100);
     
     
     
@@ -283,9 +285,6 @@ void ofApp::draw(){
     
 	image.draw(0, 0);
 	
-    
-    
-    
     if(debug == true){
      
         
@@ -323,9 +322,13 @@ void ofApp::draw(){
         
         
     }
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+    ofSetColor(127);
+        
+        //ofCircle(  Point<float>(contourFinder.getCentroid(i)), 25);
 
-   
-//    
+    }
+//
 //    //for each face "blob" we found, draw a rectangle around the face
 //    //#2
 //    for(int i = 0; i < finder.blobs.size(); i++) {
@@ -346,7 +349,7 @@ void ofApp::scanning(){
     while(ofGetElapsedTimeMillis() - time < 1000){
     
         drone.controller.spinSpeed -= s;
-        cout << "turning left\n";
+      //  cout << "turning left\n";
         checkContours();
         
     }
@@ -354,7 +357,7 @@ void ofApp::scanning(){
     time = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time < 1000){
      
-        cout << "pause\n";
+      //  cout << "pause\n";
         checkContours();
     }
     
@@ -362,23 +365,55 @@ void ofApp::scanning(){
     
     while(ofGetElapsedTimeMillis() - time < 1000){
         drone.controller.spinSpeed += s;
-        cout << "turning right\n";
+        //cout << "turning right\n";
         checkContours();
     }
     
     time = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time < 1000){
         
-        cout << "pause\n";
+        //cout << "pause\n";
         checkContours();
     }
     
+}
+
+
+//--------------------------------------------------------------
+
+/*cv::Rect ofApp::getBoundingRect(){
     
+    //cout<<"center : "<<contourFinder.getCenter()<<endl;
+    cout<<"bounding rects : "<<&contourFinder.getBoundingRects()<<endl;
+    
+
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+    double area = contourFinder.getContourArea(i);//biggest one is the first
+        cout<<" "<<endl;
+        cout<<"area=  "<<i<<" :"<<area<<"  "<<endl;
+        cout<<" "<<endl;
+       return contourFinder.getBoundingRect(0);
+    }
+}
+ */
+cv::Point2f ofApp::getCenterRect(){
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+        
+        cout<<contourFinder.getCenter(0)<<" is the center"<<endl;
+        cout<<" "<<endl;
+        cout<<" "<<endl;
+        cout<<" "<<endl;
+        return contourFinder.getCenter(0);
+
+}
+}
+
+void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
+    cout<<blobCoordinates;
     
     
     
 }
-
 //--------------------------------------------------------------
 
 void ofApp::checkContours(){
