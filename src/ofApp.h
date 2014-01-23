@@ -56,14 +56,14 @@ public:
     ofPoint myCentroid;
     
     bool debug;
+    bool isScanningRight;
+    bool isScanningLeft;
     
     
     void checkContours();
-    void scanning();
-    //void getBoundingRect();
-   // cv::Rect getBoundingRect();
-   // cv::Rect myBlob;
-    cv::Point2f getCenterRect();
+    void scanningleft();
+    void scanningright();
+cv::Point2f getCenterRect();
     
    // void tracking(cv::Rect myBlob);
     void trackingCentroid(cv::Point2f blob);

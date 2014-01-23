@@ -23,6 +23,8 @@ void ofApp::setup(){
     drone.connect();
     
     isTracking = false;
+    isScanningLeft = true;
+    isScanningRight = false;
     
     myArea = 0;
    
@@ -59,7 +61,7 @@ void ofApp::setup(){
     
     
     
-    
+    /*
     //ScreenGrab--------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -70,7 +72,7 @@ void ofApp::setup(){
 	contourFinder.setMinAreaRadius(10);
 	contourFinder.setMaxAreaRadius(200);
 	trackingColorMode = TRACK_COLOR_RGB;
-    
+    */
     
 }
 
@@ -80,10 +82,6 @@ void ofApp::update(){
     
     //DRONE STUFF-----------------------------------------
     
-    if(!drone.state.isFlying()){
-        drone.controller.takeOff(!drone.state.isTakingOff(), 3000);
-        cout << "Flying? " << drone.state.isFlying() << " \n";
-    }
     
     
     if(doPause) return;
@@ -106,14 +104,23 @@ void ofApp::update(){
     }
     
     // update the drone (process and send queued commands to drone, receive commands from drone and update state
-    drone.update();
     
-    
-    if(debug){
-        scanning();
+    if(drone.state.isFlying() && isScanningLeft)
+    {
+    scanningleft();
+       
+    }
+   
+    if(drone.state.isFlying() && isScanningRight)
+    {
+        scanningright();
+        
     }
     
+  
     
+    
+    drone.update();
     
     /*
      
@@ -174,7 +181,7 @@ void ofApp::update(){
      
      */
     
-    
+    /*
     //ScreenGrabStuff-----------------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -219,6 +226,8 @@ void ofApp::update(){
     }
     else {return;}
     //cout << imageBelowWindow()[0] << endl;
+     
+     */
     
     
     
@@ -283,7 +292,7 @@ void ofApp::draw(){
     //ScreenGrabStuff-------------------------------------------
     ofSetColor(255);
     
-	image.draw(0, 0);
+	//image.draw(0, 0);
 	
     if(debug == true){
      
@@ -303,7 +312,7 @@ void ofApp::draw(){
         ofDrawBitmapString(drone.controller.commandHistory.getAsString(), 10, 280);
         ofDrawBitmapString(drone.dataReceiver.commandHistory.getAsString("\n"), ofGetWidth()-300, 280);
         
-        
+        /*
         //Contour Finder
         contourFinder.draw();
         drawHighlightString(ofToString((int) ofGetFrameRate()) + " fps", 10, 300);
@@ -318,7 +327,7 @@ void ofApp::draw(){
         ofSetColor(targetColor);
         ofRect(0, 0, 64, 64);
         ofNoFill();
-
+         */
         
         
     }
@@ -339,49 +348,45 @@ void ofApp::draw(){
 }
 //--------------------------------------------------------------
 
-void ofApp::scanning(){
+void ofApp::scanningleft(){
     
    
-    float s = 0.005;
-  
     float time = ofGetElapsedTimeMillis();
-    
-    while(ofGetElapsedTimeMillis() - time < 1000){
-    
-        drone.controller.spinSpeed -= s;
-      //  cout << "turning left\n";
-        checkContours();
-        
+    while(ofGetElapsedTimeMillis() - time < 2000){
+    drone.controller.spinSpeed = 1;
     }
+    cout << "Turn Left " << drone.controller.spinSpeed << endl;
     
-    time = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time < 1000){
-     
-      //  cout << "pause\n";
-        checkContours();
-    }
-    
-    time = ofGetElapsedTimeMillis();
-    
-    while(ofGetElapsedTimeMillis() - time < 1000){
-        drone.controller.spinSpeed += s;
-        //cout << "turning right\n";
-        checkContours();
-    }
-    
-    time = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time < 1000){
-        
-        //cout << "pause\n";
-        checkContours();
-    }
-    
-}
 
+    float time2 = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time2 < 1000){
+        
+    }
+    isScanningLeft = false;
+    isScanningRight = true;
+
+}
 
 //--------------------------------------------------------------
 
-/*cv::Rect ofApp::getBoundingRect(){
+void ofApp::scanningright(){
+    
+    
+    float time = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time < 2000){
+        drone.controller.spinSpeed =-1;
+    }
+    
+    cout << "Turn Right " << drone.controller.spinSpeed << endl;
+
+    
+    float time2 = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time2 < 1000){
+        
+    }
+    
+    isScanningLeft = true;
+    isScanningRight = false;
     
     //cout<<"center : "<<contourFinder.getCenter()<<endl;
     cout<<"bounding rects : "<<&contourFinder.getBoundingRects()<<endl;
