@@ -27,7 +27,7 @@ void ofApp::setup(){
     isScanningRight = false;
     
     myArea = 0;
-   
+    num = 0;
 
     
     // setup command history lengths for debugging and dumping onscreen (OPTIONAL)
@@ -61,7 +61,7 @@ void ofApp::setup(){
     
     
     
-    /*
+    
     //ScreenGrab--------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -72,7 +72,7 @@ void ofApp::setup(){
 	contourFinder.setMinAreaRadius(10);
 	contourFinder.setMaxAreaRadius(200);
 	trackingColorMode = TRACK_COLOR_RGB;
-    */
+    
     
 }
 
@@ -181,7 +181,7 @@ void ofApp::update(){
      
      */
     
-    /*
+    
     //ScreenGrabStuff-----------------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -227,7 +227,7 @@ void ofApp::update(){
     else {return;}
     //cout << imageBelowWindow()[0] << endl;
      
-     */
+     
     
     
     
@@ -292,13 +292,18 @@ void ofApp::draw(){
     //ScreenGrabStuff-------------------------------------------
     ofSetColor(255);
     
-	//image.draw(0, 0);
+	image.draw(0, 0);
 	
+    cv::Point2f blob = getCenterRect();
+    ofSetColor(255, 0, 0);
+    ofFill();
+    ofEllipse(blob.x, blob.y, 50, 50);
+    
     if(debug == true){
      
         
         //Drone Stats
-        ofSetColor(0);
+        ofSetColor(0, 0, 0, 200);
         ofFill();
         ofRect(8, 10, 220, 450);
         ofRect(ofGetWidth()-300, 10, 300, 250);
@@ -312,7 +317,7 @@ void ofApp::draw(){
         ofDrawBitmapString(drone.controller.commandHistory.getAsString(), 10, 280);
         ofDrawBitmapString(drone.dataReceiver.commandHistory.getAsString("\n"), ofGetWidth()-300, 280);
         
-        /*
+        
         //Contour Finder
         contourFinder.draw();
         drawHighlightString(ofToString((int) ofGetFrameRate()) + " fps", 10, 300);
@@ -327,7 +332,7 @@ void ofApp::draw(){
         ofSetColor(targetColor);
         ofRect(0, 0, 64, 64);
         ofNoFill();
-         */
+         
         
         
     }
@@ -388,30 +393,27 @@ void ofApp::scanningright(){
     isScanningLeft = true;
     isScanningRight = false;
     
-    //cout<<"center : "<<contourFinder.getCenter()<<endl;
-    cout<<"bounding rects : "<<&contourFinder.getBoundingRects()<<endl;
-    
 
-    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
-    double area = contourFinder.getContourArea(i);//biggest one is the first
-        cout<<" "<<endl;
-        cout<<"area=  "<<i<<" :"<<area<<"  "<<endl;
-        cout<<" "<<endl;
-       return contourFinder.getBoundingRect(0);
-    }
 }
- */
+//----------------------------------------------------------------
+
 cv::Point2f ofApp::getCenterRect(){
+    
+   
+    myArea = 0;
     for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
-        
-        cout<<contourFinder.getCenter(0)<<" is the center"<<endl;
-        cout<<" "<<endl;
-        cout<<" "<<endl;
-        cout<<" "<<endl;
-        return contourFinder.getCenter(0);
+        float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
+        if(area > myArea){
+            myArea = area;
+            num = i;
+            
+        }
+        cout << "Which? " << num << endl;
+        return contourFinder.getCenter(num);
 
 }
 }
+//----------------------------------------------------------------
 
 void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
     cout<<blobCoordinates;

@@ -58,12 +58,12 @@ public:
     bool debug;
     bool isScanningRight;
     bool isScanningLeft;
-    
+    int num;
     
     void checkContours();
     void scanningleft();
     void scanningright();
-cv::Point2f getCenterRect();
+    cv::Point2f getCenterRect();
     
    // void tracking(cv::Rect myBlob);
     void trackingCentroid(cv::Point2f blob);
