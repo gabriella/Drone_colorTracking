@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxTCPClient.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxTCPClient.cpp \
   ../../../addons/ofxNetwork/src/ofxTCPClient.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
   ../../../libs/glew/include/GL/glew.h \

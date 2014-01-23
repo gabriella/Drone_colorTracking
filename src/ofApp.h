@@ -17,6 +17,7 @@ public:
     ofxARDrone::Drone drone;
     bool doPause;
     bool keys[65535];
+    bool isTracking;
     
     //TCP variables
     ofxTCPClient tcpClient;
@@ -51,7 +52,14 @@ public:
     ofImage img;
     ofPixels pixels;
     
+    float myArea;
+    ofPoint myCentroid;
+    
     bool debug;
+    
+    
+    void checkContours();
+    void scanning();
     
     void setup();
     void update();

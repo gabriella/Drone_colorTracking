@@ -22,6 +22,9 @@ void ofApp::setup(){
     debug = false;
     drone.connect();
     
+    isTracking = false;
+    
+    myArea = 0;
    
 
     
@@ -77,6 +80,12 @@ void ofApp::update(){
     
     //DRONE STUFF-----------------------------------------
     
+    if(!drone.state.isFlying()){
+        drone.controller.takeOff(!drone.state.isTakingOff(), 3000);
+        cout << "Flying? " << drone.state.isFlying() << " \n";
+    }
+    
+    
     if(doPause) return;
     
     {
@@ -98,6 +107,13 @@ void ofApp::update(){
     
     // update the drone (process and send queued commands to drone, receive commands from drone and update state
     drone.update();
+    
+    
+    if(debug){
+        scanning();
+    }
+    
+    
     
     /*
      
@@ -271,10 +287,7 @@ void ofApp::draw(){
     
     
     if(debug == true){
-        ofSetColor(200, 200, 200, 120);
-        ofFill();
-        ofRect(0, 0, ofGetWidth(), ofGetHeight());
-       
+     
         
         //Drone Stats
         ofSetColor(0);
@@ -318,6 +331,65 @@ void ofApp::draw(){
 //    for(int i = 0; i < finder.blobs.size(); i++) {
 //        ofRect(finder.blobs[i].boundingRect);
 //    }
+    
+    
+}
+//--------------------------------------------------------------
+
+void ofApp::scanning(){
+    
+   
+    float s = 0.005;
+  
+    float time = ofGetElapsedTimeMillis();
+    
+    while(ofGetElapsedTimeMillis() - time < 1000){
+    
+        drone.controller.spinSpeed -= s;
+        cout << "turning left\n";
+        checkContours();
+        
+    }
+    
+    time = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time < 1000){
+     
+        cout << "pause\n";
+        checkContours();
+    }
+    
+    time = ofGetElapsedTimeMillis();
+    
+    while(ofGetElapsedTimeMillis() - time < 1000){
+        drone.controller.spinSpeed += s;
+        cout << "turning right\n";
+        checkContours();
+    }
+    
+    time = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time < 1000){
+        
+        cout << "pause\n";
+        checkContours();
+    }
+    
+    
+    
+    
+    
+}
+
+//--------------------------------------------------------------
+
+void ofApp::checkContours(){
+    
+    
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+        
+        //if(contourFinder.getContourArea()
+        
+        
+    }
     
     
 }

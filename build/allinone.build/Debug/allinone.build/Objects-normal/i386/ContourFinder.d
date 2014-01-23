@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h \
   ../../../libs/openFrameworks/ofMain.h \
@@ -198,7 +198,7 @@ dependencies: \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/retina.hpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h

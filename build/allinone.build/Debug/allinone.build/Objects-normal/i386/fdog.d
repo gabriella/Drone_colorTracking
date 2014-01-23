@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/CLD/src/fdog.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/src/fdog.cpp \
   ../../../libs/openFrameworks/ofMain.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
   ../../../libs/glew/include/GL/glew.h \
@@ -170,7 +170,7 @@ dependencies: \
   ../../../libs/openFrameworks/video/ofQTKitPlayer.h \
   ../../../libs/openFrameworks/3d/ofCamera.h \
   ../../../libs/openFrameworks/3d/ofEasyCam.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
   ../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h

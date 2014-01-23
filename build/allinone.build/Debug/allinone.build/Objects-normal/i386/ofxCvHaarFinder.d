@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp \
   ../../../addons/ofxOpenCv/src/ofxCvHaarFinder.h \
   ../../../libs/openFrameworks/ofMain.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
@@ -173,7 +173,7 @@ dependencies: \
   ../../../libs/openFrameworks/3d/ofEasyCam.h \
   ../../../addons/ofxOpenCv/src/ofxOpenCv.h \
   ../../../addons/ofxOpenCv/src/ofxCvConstants.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp \

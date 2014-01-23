@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxOpenCv/src/ofxCvContourFinder.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp \
   ../../../addons/ofxOpenCv/src/ofxCvContourFinder.h \
   ../../../addons/ofxOpenCv/src/ofxCvConstants.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp \

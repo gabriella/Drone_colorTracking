@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h \
   ../../../libs/openFrameworks/ofMain.h \

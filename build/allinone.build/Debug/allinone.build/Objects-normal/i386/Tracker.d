@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Tracker.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Tracker.cpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \

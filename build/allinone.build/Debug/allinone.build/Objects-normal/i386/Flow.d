@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxCv/libs/ofxCv/src/Flow.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/src/ofxCv.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/src/ofxCv.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h \
   ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h \
@@ -198,10 +198,10 @@ dependencies: \
   ../../../libs/openFrameworks/3d/ofCamera.h \
   ../../../libs/openFrameworks/3d/ofEasyCam.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
-  /Users/gabriellalevine/Documents/openFrameworks/apps/myApps/allinone/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/imatrix.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/ETF.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/fdog.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxCv/libs/CLD/include/CLD/myvec.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h \
   ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h \

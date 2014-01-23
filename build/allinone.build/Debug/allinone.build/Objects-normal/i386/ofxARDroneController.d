@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxARDrone/src/ofxARDroneController.cpp \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxARDrone/src/ofxARDroneController.cpp \
   ../../../addons/ofxARDrone/src/ofxARDroneController.h \
   ../../../libs/openFrameworks/ofMain.h \
   ../../../libs/openFrameworks/utils/ofConstants.h \
@@ -171,7 +171,7 @@ dependencies: \
   ../../../libs/openFrameworks/video/ofQTKitPlayer.h \
   ../../../libs/openFrameworks/3d/ofCamera.h \
   ../../../libs/openFrameworks/3d/ofEasyCam.h \
-  /Users/gabriellalevine/Documents/openFrameworks/addons/ofxNetwork/src/ofxNetwork.h \
+  /Users/Kleeb3/Documents/OpenFrameWorks/of_0080b/apps/myApps/Drone_colorTracking/../../../addons/ofxNetwork/src/ofxNetwork.h \
   ../../../addons/ofxNetwork/src/ofxTCPClient.h \
   ../../../addons/ofxNetwork/src/ofxTCPManager.h \
   ../../../addons/ofxNetwork/src/ofxTCPServer.h \
