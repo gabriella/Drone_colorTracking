@@ -11,11 +11,11 @@ extern "C" {
 void ofApp::setup(){
     
     
-    s = 0.01;
+    s = 0.005;
     
     ofSetVerticalSync(true);
     ofSetFrameRate(60);
-    ofSetLogLevel(OF_LOG_VERBOSE);
+    //ofSetLogLevel(OF_LOG_VERBOSE);
     
     //Clear all keys
     memset(keys, 0, sizeof(*keys));
@@ -75,6 +75,11 @@ void ofApp::setup(){
 	trackingColorMode = TRACK_COLOR_RGB;
     
     
+    threshold = 30;
+    targetColor = ofColor(255, 0, 0);
+    contourFinder.setTargetColor(targetColor, trackingColorMode);
+    
+    
 }
 
 //--------------------------------------------------------------
@@ -108,7 +113,7 @@ void ofApp::update(){
     
     if(drone.state.isFlying() && drone.state.getAltitude() > 730)
     {
-        cout << "scanning!" << endl;
+        //cout << "scanning!" << endl;
         isScanning = true;
        
     }
@@ -120,6 +125,7 @@ void ofApp::update(){
     
     if(isTracking){
     
+        trackingCentroid(getCenterRect());
     }
     
     drone.update();
@@ -213,7 +219,7 @@ void ofApp::update(){
      
         
         
-        threshold = ofMap(mouseX, 0, ofGetWidth(), 0, 255);
+        
 		contourFinder.setThreshold(threshold);
 		contourFinder.findContours(image);
         
@@ -297,8 +303,14 @@ void ofApp::draw(){
 	
     //draw the blob
     ofSetColor(255, 0, 0);
-    ofFill();
+    ofNoFill();
+    ofSetLineWidth(5);
     ofEllipse(blob.x, blob.y, 50, 50);
+    
+    ofSetColor(255, 255, 255);
+    ofNoFill();
+    ofSetLineWidth(5);
+    ofRect(ofGetWindowWidth()/2-50, ofGetWindowHeight()/2-50, 100, 100);
     
     if(debug == true){
      
@@ -361,12 +373,15 @@ void ofApp::scanning(){
     
     drone.controller.spinSpeed += s;
     
+    checkContours();
     
-    if( drone.controller.spinSpeed > 0.5 || drone.controller.spinSpeed < -0.5){
-        cout << "REVERSE!" << endl;
+    if( drone.controller.spinSpeed > 0.3 || drone.controller.spinSpeed < -0.3){
+        //cout << "REVERSE!" << endl;
         drone.controller.spinSpeed = 0;
         s = s*-1;
     }
+    
+    
     /*
     float time = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time < 2000){
@@ -406,7 +421,7 @@ cv::Point2f ofApp::getCenterRect(){
     for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
        
         float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
-        cout << "Area #" << i << " = " << area << endl;
+       // cout << "Area #" << i << " = " << area << endl;
         if(area > myArea){
             myArea = area;
             
@@ -416,7 +431,7 @@ cv::Point2f ofApp::getCenterRect(){
         
 }
     
-    cout << "Which is biggest? " << num <<" , "<<contourFinder.getBoundingRects().size()<<" is the number of rects"<<endl;
+   // cout << "Which is biggest? " << num <<" , "<<contourFinder.getBoundingRects().size()<<" is the number of rects"<<endl;
 
     if(contourFinder.getBoundingRects().size() !=0 ){
     return contourFinder.getCenter(num);
@@ -426,10 +441,16 @@ cv::Point2f ofApp::getCenterRect(){
 //----------------------------------------------------------------
 
 void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
-    cout<<blobCoordinates<<" is where the blob is"<<endl;
     
     
-    //here some controls need to happen to have the drone move towards center then find the blob
+    if( getCenterRect().x > ofGetWindowWidth()/2-50 && getCenterRect().x < ofGetWindowWidth()/2+50 && getCenterRect().y > ofGetWindowHeight()/2 - 50 && getCenterRect().y < ofGetWindowHeight()/2 + 50){
+    drone.controller.spinSpeed += 0.01;
+          cout << "HOLY SHIT MOVING FORWARD" << endl;
+    }
+    
+    //checkContours();
+    
+    
     
     
 }
@@ -438,13 +459,23 @@ void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
 void ofApp::checkContours(){
     
     
+    myArea = 0;
     for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
         
-        //if(contourFinder.getContourArea()
-        
+        float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
+            if(area > myArea){
+            myArea = area;
+            
+        }
+
+        if(myArea > 9000){
+            
+            isScanning = false;
+            isTracking = true;
+            
+        }
         
     }
-    
     
 }
 
