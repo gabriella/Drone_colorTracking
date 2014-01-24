@@ -75,7 +75,7 @@ void ofApp::setup(){
 	trackingColorMode = TRACK_COLOR_RGB;
     
     
-    threshold = 30;
+    threshold = 20;
     targetColor = ofColor(255, 0, 0);
     contourFinder.setTargetColor(targetColor, trackingColorMode);
     
@@ -111,7 +111,7 @@ void ofApp::update(){
     
     // update the drone (process and send queued commands to drone, receive commands from drone and update state
     
-    if(drone.state.isFlying() && drone.state.getAltitude() > 730)
+    if(drone.state.isFlying() && drone.state.getAltitude() > 730 && !isTracking)
     {
         //cout << "scanning!" << endl;
         isScanning = true;
@@ -225,9 +225,9 @@ void ofApp::update(){
         
         
       
-         blob = getCenterRect();
+         //blob = getCenterRect();
        //  if (!isScanning){
-        trackingCentroid(blob);
+        //trackingCentroid(blob);
         // }
         
     }
@@ -283,7 +283,10 @@ void ofApp::draw(){
     stateString += "emergency state: "+ ofToString(state.inEmergencyMode())+"\n";
     stateString += "battery level: "+ ofToString(state.getBatteryPercentage())+"%\n";
     stateString += "vx: "+ ofToString(state.getVx())+" vy: "+ ofToString(state.getVy())+" vz: "+ ofToString(state.getVz())+"\n";
-    
+    stateString += "Scanning? " + ofToString(isScanning) + "\n";
+    stateString += "Tracking? " + ofToString(isTracking) + "\n";
+    stateString += "Moving Forward? " + ofToString(forward) + "\n";
+        
     /*
      //TCP String
      string TCPstring = "";
@@ -310,7 +313,8 @@ void ofApp::draw(){
     ofSetColor(255, 255, 255);
     ofNoFill();
     ofSetLineWidth(5);
-    ofRect(ofGetWindowWidth()/2-50, ofGetWindowHeight()/2-50, 100, 100);
+    ofRect(ofGetWindowWidth()/2-100, ofGetWindowHeight()/2-100, 200, 200);
+    ofSetLineWidth(1);
     
     if(debug == true){
      
@@ -443,10 +447,15 @@ cv::Point2f ofApp::getCenterRect(){
 void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
     
     
-    if( getCenterRect().x > ofGetWindowWidth()/2-50 && getCenterRect().x < ofGetWindowWidth()/2+50 && getCenterRect().y > ofGetWindowHeight()/2 - 50 && getCenterRect().y < ofGetWindowHeight()/2 + 50){
-    drone.controller.spinSpeed += 0.01;
-          cout << "HOLY SHIT MOVING FORWARD" << endl;
+    if( getCenterRect().x > ofGetWindowWidth()/2-100 && getCenterRect().x < ofGetWindowWidth()/2+100 && getCenterRect().y > ofGetWindowHeight()/2 - 100 && getCenterRect().y < ofGetWindowHeight()/2 + 100){
+        while(drone.controller.pitchAmount > -0.1){
+        drone.controller.pitchAmount -= 0.01;
+        }
+         
+        forward = true;
     }
+    else forward = false;
+   // drone.controller.pitchAmount = 0;
     
     //checkContours();
     

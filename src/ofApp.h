@@ -59,6 +59,7 @@ public:
     bool debug;
    
     bool isScanning;
+    bool forward;
     int num;
     float s;
     
