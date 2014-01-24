@@ -11,6 +11,8 @@ extern "C" {
 void ofApp::setup(){
     
     
+    s = 0.01;
+    
     ofSetVerticalSync(true);
     ofSetFrameRate(60);
     ofSetLogLevel(OF_LOG_VERBOSE);
@@ -23,8 +25,7 @@ void ofApp::setup(){
     drone.connect();
     
     isTracking = false;
-    isScanningLeft = true;
-    isScanningRight = false;
+    isScanning = false;
     
     myArea = 0;
     num = 0;
@@ -105,20 +106,21 @@ void ofApp::update(){
     
     // update the drone (process and send queued commands to drone, receive commands from drone and update state
     
-    if(drone.state.isFlying() && isScanningLeft)
+    if(drone.state.isFlying() && drone.state.getAltitude() > 730)
     {
-    scanningleft();
+        cout << "scanning!" << endl;
+        isScanning = true;
        
     }
-   
-    if(drone.state.isFlying() && isScanningRight)
-    {
-        scanningright();
-        
+
+  
+    if(isScanning){
+        scanning();
     }
     
-  
+    if(isTracking){
     
+    }
     
     drone.update();
     
@@ -353,48 +355,49 @@ void ofApp::draw(){
 }
 //--------------------------------------------------------------
 
-void ofApp::scanningleft(){
+void ofApp::scanning(){
     
-   
+    
+    
+    
+    drone.controller.spinSpeed += s;
+    
+    
+    if( drone.controller.spinSpeed > 0.5 || drone.controller.spinSpeed < -0.5){
+        cout << "REVERSE!" << endl;
+        drone.controller.spinSpeed = 0;
+        s = s*-1;
+    }
+    /*
     float time = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time < 2000){
-    drone.controller.spinSpeed = 1;
+    drone.controller.spinSpeed += 0.01;
     }
     cout << "Turn Left " << drone.controller.spinSpeed << endl;
     
-
-    float time2 = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time2 < 1000){
-        
-    }
-    isScanningLeft = false;
-    isScanningRight = true;
-
-}
-
-//--------------------------------------------------------------
-
-void ofApp::scanningright(){
-    
-    
-    float time = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time < 2000){
-        drone.controller.spinSpeed =-1;
-    }
-    
-    cout << "Turn Right " << drone.controller.spinSpeed << endl;
-
-    
+    drone.controller.spinSpeed = 0;
     float time2 = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time2 < 1000){
         
     }
     
-    isScanningLeft = true;
-    isScanningRight = false;
+    float time3 = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time3 < 2000){
+        drone.controller.spinSpeed -= 0.01;
+    }
+    drone.controller.spinSpeed = 0;
+    float time4 = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time4 < 1000){
+     
+    }
+     
+     */
+   
     
 
 }
+
+
 //----------------------------------------------------------------
 
 cv::Point2f ofApp::getCenterRect(){
@@ -403,6 +406,7 @@ cv::Point2f ofApp::getCenterRect(){
     myArea = 0;
     for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
         float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
+        cout << "Area #" << i << " = " << area << endl;
         if(area > myArea){
             myArea = area;
             num = i;
