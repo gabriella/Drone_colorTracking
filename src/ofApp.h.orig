@@ -44,7 +44,6 @@ public:
 	float threshold;
 	ofxCv::TrackingColorMode trackingColorMode;
 	ofColor targetColor;
-    cv::Point2f blob;
     
     
     //OpenCV Stuff
@@ -57,17 +56,24 @@ public:
     ofPoint myCentroid;
     
     bool debug;
-   
-    bool isScanning;
-    int num;
-    float s;
+    bool isScanningRight;
+    bool isScanningLeft;
+    
     
     void checkContours();
+<<<<<<< HEAD
     void scanning();
+    //void getBoundingRect();
+   // cv::Rect getBoundingRect();
+   // cv::Rect myBlob;
     cv::Point2f getCenterRect();
     
    // void tracking(cv::Rect myBlob);
     void trackingCentroid(cv::Point2f blob);
+=======
+    void scanningleft();
+    void scanningright();
+>>>>>>> 9a4d35f9aa6b04a81ea1e4ddc342ae8ac5fc4c0a
     
     void setup();
     void update();

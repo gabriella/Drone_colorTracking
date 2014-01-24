@@ -11,8 +11,6 @@ extern "C" {
 void ofApp::setup(){
     
     
-    s = 0.01;
-    
     ofSetVerticalSync(true);
     ofSetFrameRate(60);
     ofSetLogLevel(OF_LOG_VERBOSE);
@@ -25,10 +23,11 @@ void ofApp::setup(){
     drone.connect();
     
     isTracking = false;
-    isScanning = false;
+    isScanningLeft = true;
+    isScanningRight = false;
     
     myArea = 0;
-    num = 0;
+   
 
     
     // setup command history lengths for debugging and dumping onscreen (OPTIONAL)
@@ -62,7 +61,7 @@ void ofApp::setup(){
     
     
     
-    
+    /*
     //ScreenGrab--------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -73,7 +72,7 @@ void ofApp::setup(){
 	contourFinder.setMinAreaRadius(10);
 	contourFinder.setMaxAreaRadius(200);
 	trackingColorMode = TRACK_COLOR_RGB;
-    
+    */
     
 }
 
@@ -106,21 +105,20 @@ void ofApp::update(){
     
     // update the drone (process and send queued commands to drone, receive commands from drone and update state
     
-    if(drone.state.isFlying() && drone.state.getAltitude() > 730)
+    if(drone.state.isFlying() && isScanningLeft)
     {
-        cout << "scanning!" << endl;
-        isScanning = true;
+    scanningleft();
        
     }
-
+   
+    if(drone.state.isFlying() && isScanningRight)
+    {
+        scanningright();
+        
+    }
+    
   
-    if(isScanning){
-        scanning();
-    }
     
-    if(isTracking){
-    
-    }
     
     drone.update();
     
@@ -183,7 +181,7 @@ void ofApp::update(){
      
      */
     
-    
+    /*
     //ScreenGrabStuff-----------------------------------------
     captureWidth = ofGetWidth();
     captureHeight = ofGetHeight();
@@ -217,9 +215,10 @@ void ofApp::update(){
 		contourFinder.setThreshold(threshold);
 		contourFinder.findContours(image);
         
+        //cv::Rect myBlob = getBoundingRect();
         
        // if (!tracking){
-         blob = getCenterRect();
+        cv::Point2f blob = getCenterRect();
         //tracking(myBlob);
         trackingCentroid(blob);
         
@@ -228,7 +227,7 @@ void ofApp::update(){
     else {return;}
     //cout << imageBelowWindow()[0] << endl;
      
-     
+     */
     
     
     
@@ -293,19 +292,13 @@ void ofApp::draw(){
     //ScreenGrabStuff-------------------------------------------
     ofSetColor(255);
     
-	image.draw(0, 0);
+	//image.draw(0, 0);
 	
-    //cv::Point2f blob = getCenterRect();
-  blob = getCenterRect();
-    ofSetColor(255, 0, 0);
-    ofFill();
-    ofEllipse(blob.x, blob.y, 50, 50);
-    
     if(debug == true){
      
         
         //Drone Stats
-        ofSetColor(0, 0, 0, 200);
+        ofSetColor(0);
         ofFill();
         ofRect(8, 10, 220, 450);
         ofRect(ofGetWidth()-300, 10, 300, 250);
@@ -319,7 +312,7 @@ void ofApp::draw(){
         ofDrawBitmapString(drone.controller.commandHistory.getAsString(), 10, 280);
         ofDrawBitmapString(drone.dataReceiver.commandHistory.getAsString("\n"), ofGetWidth()-300, 280);
         
-        
+        /*
         //Contour Finder
         contourFinder.draw();
         drawHighlightString(ofToString((int) ofGetFrameRate()) + " fps", 10, 300);
@@ -334,7 +327,7 @@ void ofApp::draw(){
         ofSetColor(targetColor);
         ofRect(0, 0, 64, 64);
         ofNoFill();
-         
+         */
         
         
     }
@@ -355,81 +348,113 @@ void ofApp::draw(){
 }
 //--------------------------------------------------------------
 
-void ofApp::scanning(){
+void ofApp::scanningleft(){
     
-    
-    
-    
-    drone.controller.spinSpeed += s;
-    
-    
-    if( drone.controller.spinSpeed > 0.5 || drone.controller.spinSpeed < -0.5){
-        cout << "REVERSE!" << endl;
-        drone.controller.spinSpeed = 0;
-        s = s*-1;
-    }
-    /*
+   
     float time = ofGetElapsedTimeMillis();
+<<<<<<< HEAD
+    
+    while(ofGetElapsedTimeMillis() - time < 1000){
+    
+        drone.controller.spinSpeed -= s;
+      //  cout << "turning left\n";
+        checkContours();
+        
+=======
     while(ofGetElapsedTimeMillis() - time < 2000){
-    drone.controller.spinSpeed += 0.01;
+    drone.controller.spinSpeed = 1;
+>>>>>>> 9a4d35f9aa6b04a81ea1e4ddc342ae8ac5fc4c0a
     }
     cout << "Turn Left " << drone.controller.spinSpeed << endl;
     
-    drone.controller.spinSpeed = 0;
+<<<<<<< HEAD
+    time = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time < 1000){
+     
+      //  cout << "pause\n";
+        checkContours();
+=======
+
     float time2 = ofGetElapsedTimeMillis();
     while(ofGetElapsedTimeMillis() - time2 < 1000){
         
+>>>>>>> 9a4d35f9aa6b04a81ea1e4ddc342ae8ac5fc4c0a
     }
-    
-    float time3 = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time3 < 2000){
-        drone.controller.spinSpeed -= 0.01;
-    }
-    drone.controller.spinSpeed = 0;
-    float time4 = ofGetElapsedTimeMillis();
-    while(ofGetElapsedTimeMillis() - time4 < 1000){
-     
-    }
-     
-     */
-   
-    
+    isScanningLeft = false;
+    isScanningRight = true;
 
 }
 
+//--------------------------------------------------------------
 
-//----------------------------------------------------------------
-
-cv::Point2f ofApp::getCenterRect(){
+void ofApp::scanningright(){
     
-   
-    myArea = 0;
-    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
-       
-        float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
-        cout << "Area #" << i << " = " << area << endl;
-        if(area > myArea){
-            myArea = area;
-            
-            num = i;
-            
-        }
+    
+<<<<<<< HEAD
+    while(ofGetElapsedTimeMillis() - time < 1000){
+        drone.controller.spinSpeed += s;
+        //cout << "turning right\n";
+        checkContours();
+=======
+    float time = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time < 2000){
+        drone.controller.spinSpeed =-1;
+>>>>>>> 9a4d35f9aa6b04a81ea1e4ddc342ae8ac5fc4c0a
+    }
+    
+    cout << "Turn Right " << drone.controller.spinSpeed << endl;
+
+    
+    float time2 = ofGetElapsedTimeMillis();
+    while(ofGetElapsedTimeMillis() - time2 < 1000){
         
-}
-    
-    cout << "Which is biggest? " << num <<" , "<<contourFinder.getBoundingRects().size()<<" is the number of rects"<<endl;
-
-    if(contourFinder.getBoundingRects().size() !=0 ){
-    return contourFinder.getCenter(num);
+<<<<<<< HEAD
+        //cout << "pause\n";
+        checkContours();
     }
     
 }
-//----------------------------------------------------------------
+
+
+//--------------------------------------------------------------
+
+/*cv::Rect ofApp::getBoundingRect(){
+    
+    //cout<<"center : "<<contourFinder.getCenter()<<endl;
+    cout<<"bounding rects : "<<&contourFinder.getBoundingRects()<<endl;
+    
+
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+    double area = contourFinder.getContourArea(i);//biggest one is the first
+        cout<<" "<<endl;
+        cout<<"area=  "<<i<<" :"<<area<<"  "<<endl;
+        cout<<" "<<endl;
+       return contourFinder.getBoundingRect(0);
+    }
+}
+ */
+cv::Point2f ofApp::getCenterRect(){
+    for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
+        
+        cout<<contourFinder.getCenter(0)<<" is the center"<<endl;
+        cout<<" "<<endl;
+        cout<<" "<<endl;
+        cout<<" "<<endl;
+        return contourFinder.getCenter(0);
+
+}
+}
 
 void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
     cout<<blobCoordinates;
     
     
+=======
+    }
+    
+    isScanningLeft = true;
+    isScanningRight = false;
+>>>>>>> 9a4d35f9aa6b04a81ea1e4ddc342ae8ac5fc4c0a
     
 }
 //--------------------------------------------------------------
