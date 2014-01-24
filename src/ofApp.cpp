@@ -308,7 +308,7 @@ void ofApp::draw(){
     ofSetColor(255, 0, 0);
     ofNoFill();
     ofSetLineWidth(5);
-    ofEllipse(blob.x, blob.y, 50, 50);
+    ofEllipse(getCenterRect().x, getCenterRect().y, 50, 50);
     
     ofSetColor(255, 255, 255);
     ofFill();
@@ -462,24 +462,31 @@ void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
     
     if(getCenterRect().x > ofGetWindowWidth()/2) {
         
-    drone.controller.rollAmount -= 0.02;
+    drone.controller.rollAmount = -0.01;
+        
     }
     
-    if(getCenterRect().x < ofGetWindowWidth()/2) {
+    else if(getCenterRect().x < ofGetWindowWidth()/2) {
+       
+        drone.controller.rollAmount = 0.01;
         
-        drone.controller.rollAmount += 0.02;
     }
+    
+    else drone.controller.rollAmount = 0;
     
     if(getCenterRect().y > ofGetWindowHeight()/2) {
+       
+        drone.controller.liftSpeed = 0.01;
         
-        drone.controller.liftSpeed += 0.02;
     }
     
-    if(getCenterRect().y < ofGetWindowHeight()/2) {
+    else if(getCenterRect().y < ofGetWindowHeight()/2) {
         
-        drone.controller.liftSpeed -= 0.02;
+        drone.controller.liftSpeed = -0.01;
+        
     }
     
+    else drone.controller.liftSpeed = 0;
     
     
    // drone.controller.pitchAmount = 0;
