@@ -218,11 +218,11 @@ void ofApp::update(){
 		contourFinder.findContours(image);
         
         
-       // if (!tracking){
+      
          blob = getCenterRect();
-        //tracking(myBlob);
+       //  if (!isScanning){
         trackingCentroid(blob);
-        
+        // }
         
     }
     else {return;}
@@ -295,8 +295,7 @@ void ofApp::draw(){
     
 	image.draw(0, 0);
 	
-    //cv::Point2f blob = getCenterRect();
-  blob = getCenterRect();
+    //draw the blob
     ofSetColor(255, 0, 0);
     ofFill();
     ofEllipse(blob.x, blob.y, 50, 50);
@@ -427,8 +426,10 @@ cv::Point2f ofApp::getCenterRect(){
 //----------------------------------------------------------------
 
 void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
-    cout<<blobCoordinates;
+    cout<<blobCoordinates<<" is where the blob is"<<endl;
     
+    
+    //here some controls need to happen to have the drone move towards center then find the blob
     
     
 }
