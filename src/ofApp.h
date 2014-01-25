@@ -54,6 +54,7 @@ public:
     ofPixels pixels;
     
     float myArea;
+    float myArea2;
     ofPoint myCentroid;
     
     bool debug;

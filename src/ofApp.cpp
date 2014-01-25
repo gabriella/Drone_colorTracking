@@ -75,7 +75,7 @@ void ofApp::setup(){
 	trackingColorMode = TRACK_COLOR_RGB;
     
     
-    threshold = 20;
+    threshold = 5;
     targetColor = ofColor(255, 0, 0);
     contourFinder.setTargetColor(targetColor, trackingColorMode);
     
@@ -286,6 +286,7 @@ void ofApp::draw(){
     stateString += "Scanning? " + ofToString(isScanning) + "\n";
     stateString += "Tracking? " + ofToString(isTracking) + "\n";
     stateString += "Moving Forward? " + ofToString(forward) + "\n";
+    stateString += "Rect Area " + ofToString(myArea) + "\n";
         
     /*
      //TCP String
@@ -377,7 +378,7 @@ void ofApp::scanning(){
     
     
     
-    drone.controller.spinSpeed += s;
+    //drone.controller.spinSpeed += s;
     
     checkContours();
     
@@ -423,13 +424,13 @@ void ofApp::scanning(){
 cv::Point2f ofApp::getCenterRect(){
     
    
-    myArea = 0;
+    myArea2 = 0;
     for(int i = 0; i < contourFinder.getBoundingRects().size(); i++){
        
         float area = contourFinder.getBoundingRects()[i].width*contourFinder.getBoundingRects()[i].height;
        // cout << "Area #" << i << " = " << area << endl;
-        if(area > myArea){
-            myArea = area;
+        if(area > myArea2){
+            myArea2 = area;
             
             num = i;
             
@@ -457,18 +458,20 @@ void ofApp::trackingCentroid(cv::Point2f blobCoordinates){
         forward = true;
     }
     
-    else forward = false;
-    
+    else{
+    forward = false;
+    drone.controller.pitchAmount = 0;
+    }
     
     if(getCenterRect().x > ofGetWindowWidth()/2) {
         
-    drone.controller.rollAmount = -0.01;
+    drone.controller.rollAmount = 0.01;
         
     }
     
     else if(getCenterRect().x < ofGetWindowWidth()/2) {
        
-        drone.controller.rollAmount = 0.01;
+        drone.controller.rollAmount = -0.01;
         
     }
     
@@ -511,11 +514,16 @@ void ofApp::checkContours(){
             
         }
 
-        if(myArea > 9000){
+        if(myArea > 15000){
             
             isScanning = false;
             isTracking = true;
             
+        }
+        
+        else{
+            isScanning = true;
+            isTracking = false;
         }
         
     }
